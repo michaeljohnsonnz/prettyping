@@ -1,6 +1,14 @@
 # Pretty Ping
 
-Experimenting with some awesome shell programs as part of our class. We had to choose 3 programs to present to our class. I've chosen `prettyping` as one of mine.
+Our class was given the task to choose 3 programs from [awesome-shell](https://github.com/alebcay/awesome-shell). We need to demonstrate how to install and use it on a virtualbox with Ubuntu. 
+
+The 3 programs I've selected are as follows:
+
+- [gogh](https://github.com/Mayccoll/Gogh)
+- [prettyping](https://github.com/denilsonsa/prettyping)
+- [critic](https://github.com/Checksum/critic.sh)
+
+For this exercise, where working with [prettyping](https://github.com/denilsonsa/prettyping).
 
 ## Requirements
 
