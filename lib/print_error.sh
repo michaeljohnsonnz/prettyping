@@ -4,6 +4,6 @@ print_error(){
     local RESET="\e[0m"
 
     echo -e "[${RED}FAIL${RESET}] ${1:-Error}"
-    exit 1
+    return 1
     
 }

@@ -16,6 +16,7 @@ For this exercise, where working with [prettyping](https://github.com/denilsonsa
 - `ping`
 - `stty`
 - `tput`
+- `curl`
 
 ## Install
 

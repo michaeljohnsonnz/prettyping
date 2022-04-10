@@ -3,7 +3,6 @@ source lib/check_program.sh
 source lib/check_requirements.sh
 source lib/print_success.sh
 source lib/print_error.sh
-source lib/print_log.sh
 
 install_prettyping(){
 
