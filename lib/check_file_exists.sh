@@ -4,7 +4,7 @@ check_file_exists(){
     
     if [ ! -f "${file_path}" ]
     then
-        print_error "${1} file does not exist"
+        print_warn "${1} file does not exist"
         return 1
     fi
 
