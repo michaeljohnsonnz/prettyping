@@ -14,6 +14,9 @@ install_prettyping(){
         curl -O https://raw.githubusercontent.com/denilsonsa/prettyping/master/prettyping
         chmod +x prettyping
     }
+    
+    # Create symbolic link to run prettyping in the path
+    sudo ln -s "${PWD}/prettyping" "/usr/local/bin/prettyping"
 
     print_success "Successfully installed prettyping"
 }

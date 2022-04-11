@@ -9,6 +9,14 @@ The 3 programs I've selected are as follows:
 
 For this exercise, where working with [prettyping](https://github.com/denilsonsa/prettyping).
 
+- [Pretty Ping](#pretty-ping)
+  - [Requirements](#requirements)
+  - [Install](#install)
+    - [1. Clone repository](#1-clone-repository)
+    - [2. Change directory](#2-change-directory)
+    - [3. Install prettyping](#3-install-prettyping)
+    - [4. Run in bash](#4-run-in-bash)
+
 ## Requirements
 
 - `bash`
@@ -20,7 +28,11 @@ For this exercise, where working with [prettyping](https://github.com/denilsonsa
 
 ## Install
 
-I know it's a little overkill but I wanted to practice my bash scripting and automated the task of installing `prettyping`
+I know it's a little overkill but I wanted to practice my bash scripting and automated the task of installing `prettyping` for my Ubuntu VM. 
+- Check the programs listed in requirements are installed.
+- Check if prettyping is already downloaded
+  - Download pretty ping if it doesn't exist
+- 
 
 ### 1. Clone repository
 
@@ -28,13 +40,21 @@ I know it's a little overkill but I wanted to practice my bash scripting and aut
 git clone https://github.com/michaeljohnsonnz/prettyping.git
 ```
 
-### 2. Install prettyping
+### 2. Change directory
+
+Change into the prettyping directory
+
+```bash
+cd prettyping
+```
+
+### 3. Install prettyping
 
 ```bash
 bash install_prettyping.sh
 ```
 
-### 3. Run in bash
+### 4. Run in bash
 
 ```bash
 bash prettyping google.com
