@@ -32,7 +32,7 @@ I know it's a little overkill but I wanted to practice my bash scripting and aut
 - Check the programs listed in requirements are installed.
 - Check if prettyping is already downloaded
   - Download pretty ping if it doesn't exist
-- 
+- Create symlink to prettypink in the path
 
 ### 1. Clone repository
 
@@ -41,8 +41,6 @@ git clone https://github.com/michaeljohnsonnz/prettyping.git
 ```
 
 ### 2. Change directory
-
-Change into the prettyping directory
 
 ```bash
 cd prettyping
